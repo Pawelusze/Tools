@@ -1,0 +1,49 @@
+name: Tools
+version: '1.0-INDEV'
+main: com.gray.tools.ToolsPlugin
+api-version: '1.18'
+authors: [ Pawelusz ]
+commands:
+  gamemode:
+    aliases: [ gm ]
+    description: Change your gamemode
+  fly:
+    description: Enable or disable fly mode
+  invsee:
+    description: Open enderchrest
+  enderchest:
+    aliases: [ ec ]
+    description: Open enderchrest
+  media:
+    description: Open media menu
+  crafting:
+    aliases:
+      - craft
+      - workbench
+    description: Open crafting menu
+  trash:
+    description: Open trash menu
+
+  spawn:
+#############
+  setspawn:
+#############
+  delspawn:
+
+  helpop:
+    description: Send message to staff
+  adminchat:
+    aliases: [ ac ]
+    description: Send message to staff
+  feed:
+    description: Feed yourself
+  heal:
+    description: Heal yourself
+  gamma:
+    description: Change gamma
+  discord:
+    aliases: [ dc]
+    description: Open discord link
+  speed:
+    description: Change speed
+
